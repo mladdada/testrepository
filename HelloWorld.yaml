@@ -3,4 +3,6 @@
   hosts: all
  
   tasks:
-    - debug: hosts 
+    
+  - name: Hello World!
+    shell: echo "Hi! Tower is working."
