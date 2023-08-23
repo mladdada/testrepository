@@ -3,10 +3,4 @@
   hosts: all
  
   tasks:
- 
-  - name: Hello World!
-    shell: echo "Hi! Tower is working."
-    provider:
-       host: 22
-       user: maladdada
-       passwd: password
+    - debug: hosts 
