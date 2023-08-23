@@ -1,5 +1,5 @@
 ---
-- name: Get device uptime
+- name: this is just ates 
  hosts:
  - all
  connection: local
