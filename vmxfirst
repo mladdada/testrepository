@@ -11,7 +11,7 @@
 
   tasks:
 
-     - name: pull device configurations
+     - name: pull device configurations y
        junos_command:
           provider: "{{cli}}
           commands: show configuration | no-more
