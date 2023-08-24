@@ -13,10 +13,11 @@
 
      - name: pull device configurations y
        junos_command:
-          provider: "{{cli}}
+          provider: "{{cli}} "
           commands: show configuration | no-more
 
        register: junos_configs
+       debug: junos_configs
 
      - name: save device configurations
         copy:
